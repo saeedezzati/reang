@@ -31,7 +31,11 @@ import grey from 'material-ui/colors/grey';
 
 
 const styles = theme => ({
-    root:{
+    root: {
+        width: '100%',
+    },
+    mainColumn: {
+        width: '100%',
     },
     
 });
@@ -43,9 +47,10 @@ class MainPage extends Component {
     render(){
         const { classes, test} = this.props;
         return (
-            <Grid container className={classes.root}>
-            
-              
+            <Grid container spacing={0} direction={'column'} justify={'flex-start'} alignItems={'center'} className={classes.root}>
+                <Grid item xs={12} md={8} className={classes.mainColumn}>
+                    <div>XXXXXX</div>
+                </Grid>
             </Grid>
         )
     }
