@@ -1,4 +1,4 @@
-// process.env.API_URL = 'localhost:8000';
+// process.env.API_URL = 'localhost:3000';
 var webpack = require('webpack')
 const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
@@ -14,7 +14,7 @@ module.exports = merge(common, {
       process:{
         env:{
           NODE_ENV: JSON.stringify('production'),
-          API_URL: JSON.stringify('127.0.0.1:8000/api')
+          API_URL: JSON.stringify('127.0.0.1:3000/api')
         }
       }
     }),

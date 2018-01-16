@@ -1,4 +1,4 @@
-// process.env.API_URL = 'localhost:8000';
+// process.env.API_URL = 'localhost:3000';
 const path = require('path');
 var webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin');

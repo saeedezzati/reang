@@ -8,7 +8,7 @@ BACKEND:
 - python manage.py migrate
 - python manage.py createsuperuser [create a super user account]
 - run 'python manage.py runserver'
-- go to http://127.0.0.1:8000/admin and login with the created account
+- go to http://127.0.0.1:3000/admin and login with the created account
 
 DATABASE:
 
@@ -17,4 +17,4 @@ FRONTEND:
 - cd reang/frontend
 - npm install
 - npm run dev
-- go to http://127.0.0.1:8080/
+- go to http://127.0.0.1:3030/

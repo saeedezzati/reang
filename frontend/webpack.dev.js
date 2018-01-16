@@ -1,4 +1,4 @@
-// process.env.API_URL = 'localhost:8000';
+// process.env.API_URL = 'localhost:3000';
 var webpack = require('webpack')
 const merge = require('webpack-merge');
 const common = require('./webpack.common.js');
@@ -13,7 +13,7 @@ module.exports = merge(common, {
       process:{
         env:{
           NODE_ENV: JSON.stringify('development'),
-          API_URL: JSON.stringify('http://127.0.0.1:8000/api')
+          API_URL: JSON.stringify('http://127.0.0.1:3000/api')
         }
       }
     }),
@@ -33,7 +33,7 @@ module.exports = merge(common, {
     ],
   
     host: '0.0.0.0',
-    port: 8080,
+    port: 3030,
     historyApiFallback: true,
     headers: {
       'Access-Control-Allow-Origin': '*',
