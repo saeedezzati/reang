@@ -8,4 +8,3 @@ export const DISCONNECT = "/auth/disconnect/facebook/";
 export const REVOKE_TOKEN = "/auth/revoke-token/";
 export const INVALIDATE_SESSIONS = "/auth/invalidate-sessions/";
 export const USER = "/user/";
-

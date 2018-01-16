@@ -21,7 +21,7 @@ if (process.env.NODE_ENV !== 'production') {
   middleware.push(createLogger())
 }
 const encryptor = createEncryptor({
-  secretKey: '24j2jknjkdsb'
+  secretKey: 'dhh4ndSDDsjna'
 });
 const config = {
   key: 'root', // key is required
