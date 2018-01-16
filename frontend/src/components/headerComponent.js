@@ -179,7 +179,7 @@ class HeaderComponent extends Component {
                                                                 {user.details.social_auth
                                                                     ?   <Avatar className={classes.avatar} src={'https://graph.facebook.com/v2.10/'+ user.details.social_auth[0]+'/picture?type=large'} alt='Profile pic' />
                                                                 
-                                                                    :   <Avatar className={classes.avatar} src={'/media/images/players/defaults/avatar.png'} alt='Profile pic' />
+                                                                    :   <Avatar className={classes.avatar} src={'/media/images/users/defaults/avatar.png'} alt='Profile pic' />
                                                                 }
                                                             </Button>
                                                                 

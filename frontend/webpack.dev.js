@@ -13,7 +13,7 @@ module.exports = merge(common, {
       process:{
         env:{
           NODE_ENV: JSON.stringify('development'),
-          API_URL: JSON.stringify('http://127.0.0.1:3000/api')
+          API_URL: JSON.stringify('https://127.0.0.1:3000/api')
         }
       }
     }),
@@ -23,7 +23,7 @@ module.exports = merge(common, {
     inline:true,
     compress: true,
     // overlay: true,
-    // https: true,
+    https: true,
     // hot: true,
     hot: false,
     inline: false,
